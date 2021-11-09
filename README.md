@@ -1,7 +1,8 @@
 # SOLID-Atividade-3
 
 <h1> Single Responsiblity Principle </h1>
-```/// Antes
+```
+    // Antes
     export class item{
         _codigo: number;
         _nome: String;
@@ -34,9 +35,11 @@
             console.log(numero);
         }
 
-    }```
+    }
+```
 
-```//Depois
+```
+    //Depois
     export class novoItem{
         _codigo: number;
         _nome: String;
@@ -47,4 +50,5 @@
             this._preco = preco
         }
 
-    }```
+    }
+```

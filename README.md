@@ -1,8 +1,7 @@
 # SOLID-Atividade-3
 
 <h1> Single Responsiblity Principle </h1>
-```
-    // Antes
+<p>
     export class item{
         _codigo: number;
         _nome: String;
@@ -36,19 +35,6 @@
         }
 
     }
-```
 
-```
-    //Depois
-    export class novoItem{
-        _codigo: number;
-        _nome: String;
-        _preco: number;
-        constructor(codigo: number, nome: String, preco: number){
-            this._codigo = codigo
-            this._nome = nome
-            this._preco = preco
-        }
 
-    }
-```
+</p>
